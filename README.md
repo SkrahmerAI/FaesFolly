@@ -1,0 +1,1 @@
+Welcome to FaesFolly, a Tarot and Rune reading app designed to provide insights and guidance. Dive into the mystical world of divination with a simple and user-friendly interface. Explore the mysteries and gain clarity on your path.
