@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faes Folly - Tarot & Runes</title>
+    <title>Tarot & Rune Readings</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Faes Folly - Mystic Readings</h1>
-    
-    <!-- Tarot Section -->
-    <div class="tarot-container">
-        <button onclick="shuffleCards()">Draw a Tarot Card</button>
-        <div id="tarot-deck">
-            <img id="tarot-card" src="default-card.png" alt="Tarot Card">
-        </div>
-    </div>
+    <header>
+        <h1>Tarot & Rune Readings</h1>
+        <p>Discover the mysteries of tarot and runes.</p>
+    </header>
 
-    <!-- Rune Section -->
-    <div class="rune-container">
-        <button onclick="drawRune()">Cast a Rune</button>
-        <div id="rune-result"></div>
-    </div>
+    <section id="readings">
+        <button onclick="drawTarot()">Draw a Tarot Card</button>
+        <img id="tarotImage" src="" alt="Tarot Card">
+        <p id="tarotMeaning"></p>
+
+        <button onclick="castRune()">Cast a Rune</button>
+        <img id="runeImage" src="" alt="Rune">
+        <p id="runeMeaning"></p>
+    </section>
+
+    <section id="purchase">
+        <h2>Get an In-Depth Reading</h2>
+        <p>Purchase a personalized tarot or rune reading.</p>
+        <button onclick="buyReading()">Buy Now</button>
+    </section>
 
     <script src="script.js"></script>
 </body>

@@ -1,19 +1,22 @@
-const tarotCards = ["card1.jpg", "card2.jpg", "card3.jpg"]; 
-const runes = {
-    Algiz: "Protection - Golden glow",
-    Berkana: "Growth - Green glow",
-    Gebo: "Love - Soft pink glow",
-    Freya: "Feminine Power - Soft pink glow",
-    Wunjo: "Joy - Bright blue glow"
-};
+const tarotCards = [
+    { image: 'images/tarot1.jpg', meaning: 'A new beginning awaits.' },
+    { image: 'images/tarot2.jpg', meaning: 'Trust your intuition.' },
+    // Add more cards here
+];
 
-function shuffleCards() {
-    let randomCard = tarotCards[Math.floor(Math.random() * tarotCards.length)];
-    document.getElementById("tarot-card").src = randomCard;
+const runes = [
+    { image: 'images/rune1.jpg', meaning: 'Strength and guidance.' },
+    { image: 'images/rune2.jpg', meaning: 'Mystical protection.' },
+    // Add more runes here
+];
+
+function drawTarot() {
+    const randomCard = tarotCards[Math.floor(Math.random() * tarotCards.length)];
+    document.getElementById('tarotImage').src = randomCard.image;
+    document.getElementById('tarotMeaning').innerText = randomCard.meaning;
 }
 
-function drawRune() {
-    let runeKeys = Object.keys(runes);
-    let randomRune = runeKeys[Math.floor(Math.random() * runeKeys.length)];
-    document.getElementById("rune-result").innerText = `${randomRune}: ${runes[randomRune]}`;
-}
+function castRune() {
+    const randomRune = runes[Math.floor(Math.random() * runes.length)];
+    document.getElementById('runeImage').src = randomRune.image;
+    document
