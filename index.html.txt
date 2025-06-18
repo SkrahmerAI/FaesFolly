@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fae's Folly</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Fae's Folly</h1>
+    <p class="tagline">Whispers of the arcana. Draw your destiny.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome, Seeker</h2>
+      <p>Enter a space where moonlight dances on velvet and the tarot speaks in symbols. The portal is opening—soon, you’ll draw cards and unlock meanings that shimmer beyond reason.</p>
+    </section>
+
+    <section class="gallery-preview">
+      <h2>Major Arcana</h2>
+      <div class="card-preview">
+        <!-- Add a few tarot cards as samples here -->
+        <img src="images/00-the-fool.jpeg" alt="The Fool">
+        <img src="images/01-the-magician.jpeg" alt="The Magician">
+        <img src="images/02-the-high-priestess.jpeg" alt="The High Priestess">
+      </div>
+      <p class="cta">The full deck awaits you soon…</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fae's Folly. Site crafted with stardust and symbolism.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  background-color: #0e0b16;
+  color: #f0e7d8;
+  font-family: 'Garamond', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-style: italic;
+  color: #bfaaff;
+}
+
+.intro, .gallery-preview {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card-preview {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-preview img {
+  max-width: 100px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #563d7c;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
+  color: #666;
+}
